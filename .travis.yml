@@ -13,4 +13,4 @@ install:
   - pip install -r dev-requirements.txt
 
 script:
-  - "PYTHONPATH=. py.test --cov=language_detector tests"
+  - "PYTHONPATH=. py.test --cov=tic_tac_toe tests"
