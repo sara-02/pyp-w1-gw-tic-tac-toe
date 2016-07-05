@@ -112,7 +112,7 @@ get_board_as_string(game)
 get_winner(game)
 ```
 
-You will notice in the file `main.py` that some other internal helpers must
+You will notice in the file `game.py` that some other internal helpers must
 also be implemented in order to support the game.
 
 **Ideas for enhancements in case of extra time:**
