@@ -112,5 +112,9 @@ get_board_as_string(game)
 get_winner(game)
 ```
 
-You will notice in the file `main.py` that some other internal helpers must
+You will notice in the file `game.py` that some other internal helpers must
 also be implemented in order to support the game.
+
+**Ideas for enhancements in case of extra time:**
+- Implement a computer opponent (Whatever AI you want, random moves would be a good start)
+- Make the board scalable and dynamic. Let the user input the size of board and how many cells in a row are needed to win.
