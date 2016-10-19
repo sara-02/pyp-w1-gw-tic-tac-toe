@@ -11,6 +11,10 @@ python:
 
 install:
   - pip install -r dev-requirements.txt
+  - pip install flake8
+
+before_script:
+   flake8 .
 
 script:
   - "PYTHONPATH=. py.test --cov=tic_tac_toe tests"
