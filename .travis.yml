@@ -14,7 +14,7 @@ install:
   - pip install flake8
 
 before_script:
-   flake8 .
+   flake8 tic_tac_toe
 
 script:
   - "PYTHONPATH=. py.test --cov=tic_tac_toe tests"
