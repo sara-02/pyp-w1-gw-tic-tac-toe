@@ -35,12 +35,7 @@ def _position_is_valid(position):
         (1, 0), (1, 1), (1, 2),
         (2, 0), (2, 1), (2, 2),
     ]
-
-    for p in valid_positions:
-        if position == p:
-            return True
-
-    return False
+    return position in valid_positions
 
 
 def _board_is_full(board):
